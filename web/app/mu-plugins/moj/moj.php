@@ -19,7 +19,7 @@ add_action('init', function () {
         'supports'    => array('comments', 'title', 'editor')
     ));
 
-    register_post_type('blog_post', array(
+    register_post_type('blog-post', array(
         'labels'      => array('name' => __('Blog Posts'), 'singular_name' => __('Blog Post')),
         'public'      => true,
         'rewrite'     => array('slug' => 'blog-posts', 'feeds' => true, 'with_front' => false),
