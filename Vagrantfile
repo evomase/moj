@@ -8,7 +8,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "ubuntu/xenial64"
   config.vm.network :private_network, ip: "192.168.33.21"
   config.vm.provision :shell, :path => "install.sh"
-  config.vm.provision :shell, :path => "bootstrap.sh", privileged: false
+  config.vm.provision :shell, :path => "wp.sh", privileged: false
   config.vm.synced_folder ".", "/var/www", :owner => "www-data", :group => "www-data"
 
   config.vm.provider "virtualbox" do |vb|

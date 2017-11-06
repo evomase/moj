@@ -13,3 +13,4 @@
 ## How to access
 * WP URL - http://app.dev
 * WP Admin URL - http://app.dev/wp/wp-admin
+* Development environment default user/pass - moj/password
