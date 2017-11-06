@@ -9,6 +9,7 @@ web/app/uploads/*
 # WordPress
 web/wp
 web/.htaccess
+web/.user.ini
 
 # Dotenv
 .env
@@ -18,3 +19,6 @@ web/.htaccess
 # Composer
 vendor/*
 !vendor/.gitkeep
+
+# MOJ
+!web/app/mu-plugins/moj
