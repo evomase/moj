@@ -13,7 +13,7 @@ echo "-- Install packages --"
 sudo apt-get install -y apache2 mysql-server-5.7 git-core
 sudo apt-get install -y php7.1-fpm php7.1-cli php7.1-mcrypt php7.1-gd php7.1-mysql \
        php7.1-pgsql php7.1-imap php-memcached php7.1-mbstring php7.1-xml php7.1-curl \
-       php7.1-bcmath php7.1-sqlite3 php7.1-xdebug
+       php7.1-bcmath php7.1-sqlite3 php7.1-xdebug php7.1-zip
 
 echo "-- Configure PHP & Apache --"
 sed -i "s/display_errors = .*/display_errors = On/" /etc/php/7.1/fpm/php.ini
